@@ -1,0 +1,60 @@
+{
+  "project_name": "Masonry Wall Project",
+  "walls": [
+    {
+      "wall_id": 1,
+      "length_ft": 10,
+      "height_ft": 8,
+      "blocks_required": 100,
+      "mortar_bags_required": 19,
+      "rebar_ft_required": 24
+    },
+    {
+      "wall_id": 2,
+      "length_ft": 10,
+      "height_ft": 8,
+      "blocks_required": 100,
+      "mortar_bags_required": 19,
+      "rebar_ft_required": 24
+    },
+    {
+      "wall_id": 3,
+      "length_ft": 10,
+      "height_ft": 8,
+      "blocks_required": 100,
+      "mortar_bags_required": 19,
+      "rebar_ft_required": 24
+    }
+  ],
+  "steps": [
+    {
+      "name": "layout_marking",
+      "progress_unit": "binary",
+      "material_consumption": {}
+    },
+    {
+      "name": "mortar_mixing",
+      "progress_unit": "mortar_batches",
+      "material_consumption": {
+        "mortar_bags": 1
+      }
+    },
+    {
+      "name": "block_placement",
+      "progress_unit": "blocks_placed",
+      "material_consumption": {
+        "concrete_blocks": 1
+      }
+    },
+    {
+      "name": "joint_finishing",
+      "progress_unit": "linear_ft",
+      "material_consumption": {}
+    },
+    {
+      "name": "curing",
+      "progress_unit": "binary",
+      "material_consumption": {}
+    }
+  ]
+}
