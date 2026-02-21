@@ -1,0 +1,7 @@
+{
+    "summary": "The current construction stage is identified as 'Brick Laying'. Based on the structured project blueprint, the next logical step is 'Plastering'. To proceed efficiently, the following materials will be required: 8 units of Cement bags, 20 units of Sand cuft.",
+    "confidence_explanation": "The model shows high confidence (82.0%) based on strong visual indicators of stage completion.",
+    "risk_flag": "Low Risk",
+    "estimated_material_cost": 1400,
+    "business_impact": "By proactively preparing materials for 'Plastering', the system can reduce idle labor time and prevent supply shortages. Estimated material preparation cost for next stage: $1400."
+}

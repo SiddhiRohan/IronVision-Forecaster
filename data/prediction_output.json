@@ -1,0 +1,8 @@
+{
+  "current_stage": "Brick Laying",
+  "next_stage": "Plastering",
+  "materials_required": {
+    "cement_bags": 8,
+    "sand_cuft": 20
+  }
+}
