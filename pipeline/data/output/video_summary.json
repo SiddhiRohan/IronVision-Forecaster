@@ -1,0 +1,41 @@
+{
+  "project_name": "Unknown",
+  "date": "2026-02-21",
+  "video_duration_minutes": 21.3,
+  "summary": {
+    "overall_narrative": "The construction crew is building a wall using concrete blocks. They are laying the blocks, applying mortar, and ensuring proper alignment. The work appears to be progressing steadily with multiple workers involved.",
+    "tasks_observed": [
+      {
+        "task": "Block Laying",
+        "status": "in_progress",
+        "percent_complete": 50,
+        "confidence": 0.8,
+        "time_spent_estimate_hours": 2.0,
+        "observations": "Blocks are being laid with mortar in between. Workers are using levels and trowels to ensure proper alignment and spacing."
+      },
+      {
+        "task": "Mortar Application",
+        "status": "in_progress",
+        "percent_complete": 40,
+        "confidence": 0.7,
+        "time_spent_estimate_hours": 1.5,
+        "observations": "Mortar is being applied to blocks as they are laid. Some workers are focused on spreading and smoothing the mortar."
+      }
+    ],
+    "materials_observed_in_use": [
+      {
+        "name": "Concrete Blocks",
+        "estimated_quantity_used": 20
+      },
+      {
+        "name": "Mortar",
+        "estimated_quantity_used": 10
+      }
+    ],
+    "issues_or_blockers": [
+      "None notable"
+    ],
+    "weather_conditions": "Cloudy with some sun",
+    "crew_size_observed": 5
+  }
+}

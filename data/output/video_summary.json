@@ -1,0 +1,41 @@
+{
+  "project_name": "Masonry Wall Project",
+  "date": "2026-02-21",
+  "video_duration_minutes": 21.3,
+  "summary": {
+    "overall_narrative": "The construction crew is working on a masonry wall project, with tasks observed including block placement and preparation. The work involves setting concrete blocks in place and ensuring they are level. The crew is actively engaged in the construction process.",
+    "tasks_observed": [
+      {
+        "task": "block_placement",
+        "status": "in_progress",
+        "percent_complete": 40,
+        "confidence": 0.8,
+        "time_spent_estimate_hours": 1.5,
+        "observations": "Blocks are being placed and leveled, with a focus on ensuring proper alignment and positioning."
+      },
+      {
+        "task": "layout_marking",
+        "status": "completed",
+        "percent_complete": 100,
+        "confidence": 0.9,
+        "time_spent_estimate_hours": 0.5,
+        "observations": "Initial layout and marking appear to be complete, with the crew now focused on block placement."
+      }
+    ],
+    "materials_observed_in_use": [
+      {
+        "name": "concrete blocks",
+        "estimated_quantity_used": 5
+      },
+      {
+        "name": "leveling tool",
+        "estimated_quantity_used": 1
+      }
+    ],
+    "issues_or_blockers": [
+      "some blocks appear to be slightly misaligned, but no major issues"
+    ],
+    "weather_conditions": "partly cloudy with some sunlight",
+    "crew_size_observed": 3
+  }
+}

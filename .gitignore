@@ -1,0 +1,9 @@
+# Large video files
+data/sample_videos/*.mp4
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment
+.env
