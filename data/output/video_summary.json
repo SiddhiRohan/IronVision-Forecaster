@@ -3,39 +3,52 @@
   "date": "2026-02-21",
   "video_duration_minutes": 21.3,
   "summary": {
-    "overall_narrative": "The construction crew is working on a masonry wall project, with tasks observed including block placement and preparation. The work involves setting concrete blocks in place and ensuring they are level. The crew is actively engaged in the construction process.",
+    "overall_narrative": "The masonry wall project involved laying blocks, mixing and applying mortar, and finishing joints. Workers were observed performing block placement, mortar mixing, and joint finishing tasks. The project seemed to be progressing steadily with multiple workers involved.",
     "tasks_observed": [
       {
         "task": "block_placement",
         "status": "in_progress",
         "percent_complete": 40,
         "confidence": 0.8,
-        "time_spent_estimate_hours": 1.5,
-        "observations": "Blocks are being placed and leveled, with a focus on ensuring proper alignment and positioning."
+        "time_spent_estimate_hours": 2.0,
+        "observations": "Blocks were being placed on top of each other, with mortar in between. Workers were using levels and trowels to ensure proper alignment."
       },
       {
-        "task": "layout_marking",
-        "status": "completed",
-        "percent_complete": 100,
-        "confidence": 0.9,
-        "time_spent_estimate_hours": 0.5,
-        "observations": "Initial layout and marking appear to be complete, with the crew now focused on block placement."
+        "task": "mortar_mixing",
+        "status": "in_progress",
+        "percent_complete": 30,
+        "confidence": 0.7,
+        "time_spent_estimate_hours": 1.5,
+        "observations": "Workers were mixing mortar in a large bucket, using a drill and paddle to achieve the right consistency."
+      },
+      {
+        "task": "joint_finishing",
+        "status": "not_started",
+        "percent_complete": 0,
+        "confidence": 0.5,
+        "time_spent_estimate_hours": 0.0,
+        "observations": "No joint finishing tasks were observed, but tools such as trowels and jointers were visible on site."
       }
     ],
     "materials_observed_in_use": [
       {
         "name": "concrete blocks",
-        "estimated_quantity_used": 5
+        "estimated_quantity_used": 50
       },
       {
-        "name": "leveling tool",
-        "estimated_quantity_used": 1
+        "name": "mortar mix",
+        "estimated_quantity_used": 10
+      },
+      {
+        "name": "water",
+        "estimated_quantity_used": 5
       }
     ],
     "issues_or_blockers": [
-      "some blocks appear to be slightly misaligned, but no major issues"
+      "delay in material delivery",
+      "weather conditions"
     ],
-    "weather_conditions": "partly cloudy with some sunlight",
-    "crew_size_observed": 3
+    "weather_conditions": "overcast with some rain",
+    "crew_size_observed": 5
   }
 }
