@@ -43,7 +43,7 @@ st.markdown("""
         position: relative;
         background: #08090C;
         border-radius: 20px;
-        padding: 44px 48px 40px;
+        padding: 60px 48px 56px;
         margin-bottom: 28px;
         border: 1px solid rgba(255,255,255,0.06);
         overflow: hidden;
@@ -54,7 +54,7 @@ st.markdown("""
         top: 0; left: 0;
         width: 100%; height: 100%;
         object-fit: cover;
-        opacity: 0.25;
+        opacity: 0.45;
         z-index: -1;
         border-radius: 20px;
     }
@@ -62,7 +62,7 @@ st.markdown("""
         position: absolute;
         top: 0; left: 0;
         width: 100%; height: 100%;
-        background: linear-gradient(135deg, rgba(8,9,12,0.85) 0%, rgba(8,9,12,0.6) 50%, rgba(8,9,12,0.9) 100%);
+        background: linear-gradient(135deg, rgba(8,9,12,0.55) 0%, rgba(8,9,12,0.35) 50%, rgba(8,9,12,0.6) 100%);
         z-index: -1;
         border-radius: 20px;
     }
