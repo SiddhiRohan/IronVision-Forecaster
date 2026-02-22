@@ -1,0 +1,63 @@
+{
+  "current_progress": {
+    "completed_steps": [],
+    "in_progress_steps": [
+      {
+        "step_id": 2,
+        "percent_complete": 30,
+        "estimated_remaining_hours": 3.5
+      },
+      {
+        "step_id": 3,
+        "percent_complete": 40,
+        "estimated_remaining_hours": 3.0
+      }
+    ],
+    "overall_percent_complete": 20,
+    "ahead_or_behind_schedule": "behind",
+    "schedule_variance_hours": 2.0
+  },
+  "next_day_plan": {
+    "priority_tasks": [
+      {
+        "step_id": 2,
+        "task": "mortar_mixing",
+        "action": "continue mixing mortar to support block placement",
+        "estimated_hours": 2.0,
+        "crew_needed": 2
+      },
+      {
+        "step_id": 3,
+        "task": "block_placement",
+        "action": "continue placing blocks on the wall",
+        "estimated_hours": 4.0,
+        "crew_needed": 3
+      }
+    ],
+    "materials_needed_tomorrow": [
+      {
+        "name": "concrete_blocks",
+        "quantity": 50,
+        "unit": "blocks",
+        "note": "calculation: 100 total - 50 used = 50 remaining, need 50 tomorrow"
+      },
+      {
+        "name": "mortar_bags",
+        "quantity": 10,
+        "unit": "bags",
+        "note": "calculation: 19 total - 10 used = 9 remaining, need 10 tomorrow"
+      }
+    ],
+    "estimated_completion_date": "2026-03-01",
+    "risks": [
+      "delay in material delivery",
+      "weather conditions"
+    ]
+  },
+  "recommendations": [
+    "increase crew size to 6",
+    "expedite material delivery",
+    "monitor weather conditions"
+  ],
+  "generated_at": "2026-02-21T18:00:00Z"
+}

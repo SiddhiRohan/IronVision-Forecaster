@@ -1,0 +1,112 @@
+{
+  "forecast": [
+    {
+      "day": 1,
+      "date": "2026-02-22",
+      "tasks": [
+        "block_placement",
+        "mortar_mixing"
+      ],
+      "materials_needed": [
+        {
+          "name": "concrete blocks",
+          "quantity": 30,
+          "unit": "blocks"
+        },
+        {
+          "name": "mortar_bags",
+          "quantity": 6,
+          "unit": "bags"
+        }
+      ],
+      "expected_progress_percent": 50
+    },
+    {
+      "day": 2,
+      "date": "2026-02-23",
+      "tasks": [
+        "block_placement",
+        "joint_finishing"
+      ],
+      "materials_needed": [
+        {
+          "name": "concrete blocks",
+          "quantity": 30,
+          "unit": "blocks"
+        },
+        {
+          "name": "joint_finishing_tools",
+          "quantity": 1,
+          "unit": "set"
+        }
+      ],
+      "expected_progress_percent": 65
+    },
+    {
+      "day": 3,
+      "date": "2026-02-24",
+      "tasks": [
+        "joint_finishing",
+        "curing"
+      ],
+      "materials_needed": [
+        {
+          "name": "curing_compounds",
+          "quantity": 1,
+          "unit": "set"
+        }
+      ],
+      "expected_progress_percent": 80
+    },
+    {
+      "day": 4,
+      "date": "2026-02-25",
+      "tasks": [
+        "curing",
+        "layout_marking"
+      ],
+      "materials_needed": [
+        {
+          "name": "layout_marking_tools",
+          "quantity": 1,
+          "unit": "set"
+        }
+      ],
+      "expected_progress_percent": 90
+    },
+    {
+      "day": 5,
+      "date": "2026-02-26",
+      "tasks": [
+        "layout_marking",
+        "mortar_mixing"
+      ],
+      "materials_needed": [
+        {
+          "name": "mortar_bags",
+          "quantity": 6,
+          "unit": "bags"
+        }
+      ],
+      "expected_progress_percent": 95
+    }
+  ],
+  "total_materials_remaining": [
+    {
+      "name": "concrete blocks",
+      "total_quantity": 265,
+      "unit": "blocks"
+    },
+    {
+      "name": "mortar_bags",
+      "total_quantity": 52,
+      "unit": "bags"
+    },
+    {
+      "name": "rebar_ft",
+      "total_quantity": 72,
+      "unit": "ft"
+    }
+  ],
+  "projected_completion": "2026-03-05"
+}
