@@ -136,6 +136,12 @@ ironsite-hackathon/
 
 ## Getting Started
 
+### Clone the repository
+```bash
+git clone https://github.com/meghnag2712/Ironsite-hackathon.git
+cd Ironsite-hackathon
+```
+
 ### Install dependencies
 
 ```bash
