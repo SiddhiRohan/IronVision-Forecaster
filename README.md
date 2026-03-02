@@ -218,10 +218,4 @@ We built this in 36 hours. Here's where it goes from here:
 
 ---
 
-## Team
-
-Built at the **Ironsite Hackathon** — 36 hours, from zero to working prototype.
-
----
-
 *IronVision Forecaster — because the best time to plan tomorrow is while today's footage is still fresh.*
